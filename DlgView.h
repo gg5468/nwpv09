@@ -36,6 +36,11 @@ public:
 	virtual void Dump(CDumpContext& dc) const;
 #endif
 
+
+public:
+	afx_msg void OnKillFocus();
+	virtual void OnUpdate(CView*, LPARAM, CObject*);
+
 protected:
 
 // Generated message map functions
